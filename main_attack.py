@@ -70,8 +70,7 @@ def main(args):
     ])
     adversarial_model_file = "/home/flavie/Desktop/dl-attacks/results_in_server/greedy_imagenet_v2_corr/1.0_1/adversarial_directions_vgg_full_50_atom_added_on_dataset_20000.bin"
     d = torch.load(adversarial_model_file)[0].data
-    # im_path = '/home/flavie/Desktop/attack_learning/DL_attack/data/ImageNet/ILSVRC/Data/val/n04328186/ILSVRC2012_val_00025757.JPEG'
-    im_path = '/home/flavie/Desktop/attack_learning/DL_attack/data/ImageNet/ILSVRC/Data/val/n02074367/ILSVRC2012_val_00040083.JPEG'
+    im_path = 'images/ILSVRC2012_val_00040083.JPEG'
 
     im = Image.open(im_path)
 
