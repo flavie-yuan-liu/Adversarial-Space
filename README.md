@@ -15,7 +15,7 @@ For training on the ImageNet dataset, use the following command:
 ```
 python3 demo_dL_Imagenet.py --source-models resnet18 --train True
 ```
-If you prefer to skip training and just test the models, you can download the pre-trained adversarial spaces, on [CIFAR10](https://) and on [IMAGENET](https://).
+If you prefer to skip training and just test the models, you can download the pre-trained adversarial spaces, on [CIFAR10 and IMAGENET](https://drive.google.com/drive/folders/1D46eqcv0Bs8L3yrMlAu7EbgVAXfFwkcQ?usp=sharing)
 
 
 The trained adversarial dictionary has been shown to be model-agnostic, 
